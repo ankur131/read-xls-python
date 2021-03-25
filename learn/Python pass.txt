@@ -1,0 +1,2 @@
+user: root
+pass: 1234 (same as in video telusko)
