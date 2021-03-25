@@ -1,0 +1,141 @@
+x=3
+y=2
+z=x+y
+print(z)
+
+#f = open('mydata','r')
+#print (f.read())
+
+#import openpyxl
+#openpyxl.load_workbook("stocks.xlsx")
+#sheets=wb.sheetnames
+#print(sheets)
+
+import csv
+with open('stockscsv.csv', mode='r') as f:
+    reader = csv.reader(f)
+    for row in reader:
+     print(row)
+
+import xlrd
+loc = ("stocks.xls")
+
+################################
+
+x=3
+y=2
+z=x+y
+print(z)
+
+#f = open('mydata','r')
+#print (f.read())
+
+import openpyxl
+openpyxl.load_workbook("stocks.xlsx")
+sheets=wb.sheetnames
+print(sheets)
+
+#################################
+
+x=3
+y=2
+z=x+y
+print(z)
+
+#f = open('mydata','r')
+#print (f.read())
+
+#import openpyxl
+#openpyxl.load_workbook("stocks.xlsx")
+#sheets=wb.sheetnames
+#print(sheets)
+
+import csv
+with open('stockscsv.csv', mode='r') as f:
+    reader = csv.reader(f)
+    for row in reader:
+     print(row)
+
+import xlrd
+loc = ("stocks.xls")
+
+###########################
+
+
+C:\Users\DELL\AppData\Roaming\Python\Python39
+
+C:\Program Files\Python39
+
+
+###########################
+
+
+
+final code:
+
+x=3
+y=2
+z=x+y
+print(z)
+
+#f = open('mydata','r')
+#print (f.read())
+
+#import openpyxl
+#openpyxl.load_workbook("stocks.xlsx")
+#sheets=wb.sheetnames
+#print(sheets)
+
+import csv
+with open('stockscsv.csv', mode='r') as f:
+    reader = csv.reader(f)
+    for row in reader:
+     print(row)
+
+
+import xlrd
+loc = ("stocksnew.xls")
+wb = xlrd.open_workbook(loc)
+sheet = wb.sheet_by_index(0)
+sheet.cell_value(0, 0)
+print(sheet.ncols)
+print(sheet)
+
+#import openpyxl
+#openpyxl.load_workbook("stocks.xlsx")
+
+########################################
+
+https://www.youtube.com/watch?v=WDEyt2VHpj4
+https://www.youtube.com/watch?v=vR5utJvN4JY
+
+pip3 install msql-connector
+
+cretae database in sql:
+databse in mysql:
+#show databases;
+#Create database accounts;
+use accounts;
+#create table Account_new (name varchar(20), number int(10));
+#insert into account_new values ('Ankur','1');
+#select * from account_new;
+#create table account_new1 (Name varchar(10) DEFAULT NULL);
+#insert into account_new1 values ('Ankur');
+select * from account_new1 limit 0,1000;
+
+databse in mysql:
+#show databases;
+#Create database accounts;
+use accounts;
+#create table Account_new (name varchar(20), number int(10));
+#insert into account_new values ('Ankur','1');
+#select * from account_new;
+#create table account_new1 (Name varchar(10) DEFAULT NULL);
+#insert into account_new1 values ('Ankur');
+select * from account_new1 limit 0,1000;
+
+
+########################################
+
+
+
